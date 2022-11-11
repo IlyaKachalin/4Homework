@@ -28,7 +28,7 @@ try
         int result = Power(a, b);
         Console.WriteLine($"{a} в степени {b} = {result}");
     }
-    else Console.WriteLine("Число B должно быть положительным");
+    else Console.WriteLine("Число B должно быть натуральным");
 }
 
 catch
